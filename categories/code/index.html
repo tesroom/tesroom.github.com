@@ -1,116 +1,70 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>code | Classic</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/fonts.css" />
-    <link rel="stylesheet" href="/css/theme-override.css">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css" integrity="sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js" integrity="sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/contrib/auto-render.min.js" integrity="sha384-yACMu8JWxKzSp/C1YV86pzGiQ/l1YUfE8oPuahJQxzehAjEt2GiQuy/BIvl9KyeF" crossorigin="anonymous"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            renderMathInElement(document.body);
-        });
-    </script>
+<html lang="en">
+<head>
 
-<header>
+  <meta charset="utf-8" />
 
   
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <nav>
-    <ul>
-      
-      
-      <li class="pull-left ">
-        <a href="/">/home/classic</a>
-      </li>
-      
-      
-      <li class="pull-left ">
-        <a href="/">~/home</a>
-      </li>
-      
-      
-      <li class="pull-left ">
-        <a href="/categories/">~/categories</a>
-      </li>
-      
-      
-      <li class="pull-left ">
-        <a href="/tags/">~/tags</a>
-      </li>
-      
+  <title>
+  Category → 
+  
+   | Hugo Blog (SEO Version)
+</title>
 
-      
-      
-      <li class="pull-right">
-        <a href="/index.xml">~/subscribe</a>
-      </li>
-      
+  
+  
 
-    </ul>
-  </nav>
-</header>
+  
+  
+<!--[if lte IE 8]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/videojs-ie8@1.1.2/dist/videojs-ie8.min.js"></script>
+<![endif]-->
 
-  </head>
+<!--[if lte IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20180112/classList.min.js"></script>
+<![endif]-->
 
+
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@14.2.1/dist/smooth-scroll.polyfills.min.js"></script>
+
+
+</head>
   <body>
-    <br/>
-
-
-
-<h1>code</h1>
-
-
-
-
-<ul>
+    
+    <div class="suspension">
+      <a title="Go to top" class="to-top is-hide"><span class="icon icon-up"></span></a>
+      
+    </div>
+    
+    
   
-  <li>
-    <span class="date">2012/01/23</span>
-    <a href="/post/2012/01/23/juicy-code/">Juicy Code</a>
-  </li>
+  <section class="main post-list">
+    <header class="list-header offscreen">
+      <h2 class="list-label">Posts List</h2>
+    </header>
+    
+    
+      
+        <article class="post-entry">
+  <header class="post-header">
+    <h3 class="post-title"><a href="http://localhost:1313/post/juicy-code/" class="post-link">Juicy Code</a></h3>
+    <p class="post-meta">@Open Source · Jan 23, 2012 · 1 min read</p>
+  </header>
   
-</ul>
-
-    <footer>
-      
-<script>
-(function() {
-  function center_el(tagName) {
-    var tags = document.getElementsByTagName(tagName), i, tag;
-    for (i = 0; i < tags.length; i++) {
-      tag = tags[i];
-      var parent = tag.parentElement;
-      
-      if (parent.childNodes.length === 1) {
-        
-        if (parent.nodeName === 'A') {
-          parent = parent.parentElement;
-          if (parent.childNodes.length != 1) continue;
-        }
-        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
-      }
-    }
-  }
-  var tagNames = ['img', 'embed', 'object'];
-  for (var i = 0; i < tagNames.length; i++) {
-    center_el(tagNames[i]);
-  }
-})();
-</script>
+  <p class="post-summary">Check out this JUICY! code:
+def with_value_from_database(value) self.class.from_database(name, value, type) end def with_cast_value(value) self.class.with_cast_value(name, value, type) end def with_type(type) if changed_in_place? with_value_from_user(value).with_type(type) else self.class.new(name, value_before_type_cast, type, original_attribute) end end </p>
+  <footer class="post-footer">
+    <a class="read-more" href="http://localhost:1313/post/juicy-code/">Read More →</a>
+  </footer>
+</article>
 
       
-      <hr/>
-      Open-Source | <a href="https://github.com/goodroot/hugo-classic">Github</a> | <a href="https://twitter.com/thegoodroot">Twitter</a>
-      
-    </footer>
+    
+    
+  </section>
+  
+
   </body>
 </html>
-
